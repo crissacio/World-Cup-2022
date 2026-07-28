@@ -5,7 +5,7 @@ function Crowd(){
 
 
     const people = Array.from({
-        length:70
+        length:30
     });
 
 
