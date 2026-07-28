@@ -1,26 +1,32 @@
-import {
-    createHashRouter
-} from "react-router-dom";
+import { Suspense } from "react"; // <-- Cambiamos 'import React, { Suspense }' por esto
+import { createHashRouter } from "react-router-dom";
 
-
-import Home from "@/pages/Home";
-import Tournament from "@/pages/Tournament";
-
-
+// El resto del código queda exactamente igual...
+const Loader = () => (
+  <div style={{ 
+      display: 'flex', 
+      justifyContent: 'center', 
+      alignItems: 'center', 
+      height: '100vh',
+      fontFamily: 'sans-serif'
+  }}>
+      <p>Cargando sección...</p>
+  </div>
+);
 
 export const router = createHashRouter([
-
-
     {
-        path:"/",
-        element:<Home/>
+        path: "/",
+        lazy: async () => {
+            const { default: Home } = await import("@/pages/Home");
+            return { element: <Suspense fallback={<Loader />}><Home /></Suspense> };
+        }
     },
-
-
     {
-        path:"/mundial",
-        element:<Tournament/>
+        path: "/mundial",
+        lazy: async () => {
+            const { default: Tournament } = await import("@/pages/Tournament");
+            return { element: <Suspense fallback={<Loader />}><Tournament /></Suspense> };
+        }
     }
-
-
 ]);
