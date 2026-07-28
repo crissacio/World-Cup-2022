@@ -540,7 +540,7 @@ Please change the parent <Route path="${e}"> to <Route path="${e===`/`?`*`:`${e}
             to-transparent\r
 \r
 \r
-            `,animate:{opacity:[.4,.7,.4]},transition:{duration:5,repeat:1/0}})]}),e[3]=i):i=e[3],i}function Eh(){let e=(0,$.c)(7),t;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=Array.from({length:70}),e[0]=t):t=e[0];let n=t,r,i,a,o,s;e[1]===Symbol.for(`react.memo_cache_sentinel`)?(r={opacity:0,y:40},i={opacity:1,y:0},a={duration:1.5},o=(0,Z.jsx)(`div`,{className:`\r
+            `,animate:{opacity:[.4,.7,.4]},transition:{duration:5,repeat:1/0}})]}),e[3]=i):i=e[3],i}function Eh(){let e=(0,$.c)(7),t;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=Array.from({length:30}),e[0]=t):t=e[0];let n=t,r,i,a,o,s;e[1]===Symbol.for(`react.memo_cache_sentinel`)?(r={opacity:0,y:40},i={opacity:1,y:0},a={duration:1.5},o=(0,Z.jsx)(`div`,{className:`\r
 \r
                 absolute\r
 \r
