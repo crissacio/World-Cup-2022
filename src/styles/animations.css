@@ -1,0 +1,173 @@
+@keyframes pulseGlow {
+
+
+  0% {
+
+    opacity:.35;
+
+    transform:scale(1);
+
+  }
+
+
+  50% {
+
+    opacity:.8;
+
+    transform:scale(1.08);
+
+  }
+
+
+  100% {
+
+    opacity:.35;
+
+    transform:scale(1);
+
+  }
+
+
+}
+
+
+
+@keyframes float {
+
+
+  0% {
+
+    transform:translateY(0);
+
+  }
+
+
+  50% {
+
+    transform:translateY(-15px);
+
+  }
+
+
+  100% {
+
+    transform:translateY(0);
+
+  }
+
+
+}
+
+
+
+@keyframes shimmer {
+
+
+  0% {
+
+    background-position:
+    200% center;
+
+  }
+
+
+  100% {
+
+    background-position:
+    -200% center;
+
+  }
+
+
+}
+
+
+
+@keyframes rotateSlow {
+
+
+  from {
+
+    transform:rotate(0deg);
+
+  }
+
+
+  to {
+
+    transform:rotate(360deg);
+
+  }
+
+
+}
+
+
+
+@keyframes curtainOpen {
+
+
+  from {
+
+    transform:scaleX(1);
+
+  }
+
+
+  to {
+
+    transform:scaleX(0);
+
+  }
+
+
+}
+
+
+
+/* Clases reutilizables */
+
+
+.glow-animation {
+
+  animation:
+
+  pulseGlow
+
+  4s
+
+  infinite;
+
+}
+
+
+
+.float-animation {
+
+  animation:
+
+  float
+
+  4s
+
+  ease-in-out
+
+  infinite;
+
+}
+
+
+
+.rotate-animation {
+
+  animation:
+
+  rotateSlow
+
+  20s
+
+  linear
+
+  infinite;
+
+}

@@ -1,0 +1,71 @@
+:root {
+
+  /* Colores principales */
+
+  --gold:
+  #facc15;
+
+  --gold-soft:
+  #fde68a;
+
+
+  --argentina-blue:
+  #74acdf;
+
+
+  --argentina-light:
+  #e8f4ff;
+
+
+  --dark:
+  #020617;
+
+
+  --black:
+  #000000;
+
+
+
+  /* Glass */
+
+  --glass:
+
+  rgba(255,255,255,0.08);
+
+
+  --glass-border:
+
+  rgba(255,255,255,0.15);
+
+
+
+  /* Sombras */
+
+  --gold-glow:
+
+  0 0 40px rgba(250,204,21,.45);
+
+
+  --blue-glow:
+
+  0 0 40px rgba(116,172,223,.35);
+
+
+
+  /* Transiciones */
+
+  --transition-fast:
+
+  .25s ease;
+
+
+  --transition-normal:
+
+  .5s ease;
+
+
+  --transition-slow:
+
+  1s ease;
+
+}
