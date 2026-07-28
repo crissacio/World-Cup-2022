@@ -1,5 +1,5 @@
 import {
-    createBrowserRouter
+    createHashRouter
 } from "react-router-dom";
 
 
@@ -8,7 +8,7 @@ import Tournament from "@/pages/Tournament";
 
 
 
-export const router = createBrowserRouter([
+export const router = createHashRouter([
 
 
     {
