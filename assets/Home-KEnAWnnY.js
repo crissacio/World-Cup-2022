@@ -1,4 +1,4 @@
-import{c as e,i as t,n,r,t as i}from"./index-j3qqj71Z.js";import{t as a}from"./proxy-CZjTi9Ce.js";var o=n(),s=i();function c(){let e=(0,o.c)(6),t,n;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t={rotate:360},n={duration:20,repeat:1/0,ease:`linear`},e[0]=t,e[1]=n):(t=e[0],n=e[1]);let r,i;e[2]===Symbol.for(`react.memo_cache_sentinel`)?(r=(0,s.jsx)(a.div,{className:`\r
+import{c as e,i as t,n,r,t as i}from"./index-fDJpq1we.js";import{t as a}from"./proxy-WNpCXuUo.js";var o=n(),s=i();function c(){let e=(0,o.c)(6),t,n;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t={rotate:360},n={duration:20,repeat:1/0,ease:`linear`},e[0]=t,e[1]=n):(t=e[0],n=e[1]);let r,i;e[2]===Symbol.for(`react.memo_cache_sentinel`)?(r=(0,s.jsx)(a.div,{className:`\r
 \r
             absolute\r
 \r
@@ -221,7 +221,7 @@ import{c as e,i as t,n,r,t as i}from"./index-j3qqj71Z.js";import{t as a}from"./p
 \r
         to-[#74ACDF]\r
 \r
-        `,animate:l,transition:u}),t[8]=l,t[9]=d);let f;return t[10]!==c||t[11]!==d?(f=(0,s.jsxs)(s.Fragment,{children:[c,d]}),t[10]=c,t[11]=d,t[12]=f):f=t[12],f}var m=`/World-Cup-2022/assets/world-cup-CIM0Uq0c.png`;function h(){let e=(0,o.c)(1),t;return e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,s.jsx)(a.div,{className:`\r
+        `,animate:l,transition:u}),t[8]=l,t[9]=d);let f;return t[10]!==c||t[11]!==d?(f=(0,s.jsxs)(s.Fragment,{children:[c,d]}),t[10]=c,t[11]=d,t[12]=f):f=t[12],f}var m=`/World-Cup-2022/assets/world-cup-C-6pechG.png`;function h(){let e=(0,o.c)(1),t;return e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,s.jsx)(a.div,{className:`\r
         absolute\r
 \r
         h-[600px]\r
