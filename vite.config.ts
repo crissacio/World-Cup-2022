@@ -8,6 +8,9 @@ import path from "node:path";
 
 export default defineConfig({
 
+    base: "/World-Cup-2022/",
+
+
     plugins: [
 
         react(),
