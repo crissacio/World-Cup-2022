@@ -1,0 +1,64 @@
+<svg 
+    width="512" 
+    height="512" 
+    viewBox="0 0 512 512" 
+    xmlns="http://www.w3.org/2000/svg"
+>
+
+    <!-- Fondo bandera -->
+    <rect 
+        width="512" 
+        height="512" 
+        rx="80" 
+        fill="#FFFFFF"
+    />
+
+    <!-- Franja superior -->
+    <rect
+        width="512"
+        height="170"
+        y="0"
+        fill="#74ACDF"
+    />
+
+    <!-- Franja inferior -->
+    <rect
+        width="512"
+        height="170"
+        y="342"
+        fill="#74ACDF"
+    />
+
+
+    <!-- Sol de Mayo -->
+    <circle
+        cx="256"
+        cy="256"
+        r="55"
+        fill="#F6B40E"
+    />
+
+
+    <!-- Rayos del sol -->
+    <g
+        stroke="#F6B40E"
+        stroke-width="12"
+        stroke-linecap="round"
+    >
+
+        <line x1="256" y1="165" x2="256" y2="125"/>
+        <line x1="256" y1="347" x2="256" y2="387"/>
+
+        <line x1="165" y1="256" x2="125" y2="256"/>
+        <line x1="347" y1="256" x2="387" y2="256"/>
+
+        <line x1="192" y1="192" x2="165" y2="165"/>
+        <line x1="320" y1="320" x2="347" y2="347"/>
+
+        <line x1="320" y1="192" x2="347" y2="165"/>
+        <line x1="192" y1="320" x2="165" y2="347"/>
+
+    </g>
+
+
+</svg>
