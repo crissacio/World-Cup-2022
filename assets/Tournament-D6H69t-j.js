@@ -1,0 +1,689 @@
+import{c as e,i as t,n,t as r}from"./index-j3qqj71Z.js";import{t as i}from"./proxy-CZjTi9Ce.js";var a=n(),o=r();function s(){let e=(0,a.c)(5),t,n,r;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t={opacity:0,y:-40},n={opacity:1,y:0},r={duration:1},e[0]=t,e[1]=n,e[2]=r):(t=e[0],n=e[1],r=e[2]);let s;e[3]===Symbol.for(`react.memo_cache_sentinel`)?(s=(0,o.jsx)(`p`,{className:`\r
+\r
+            text-yellow-400\r
+\r
+            uppercase\r
+\r
+            tracking-[0.5em]\r
+\r
+            text-sm\r
+\r
+            `,children:`FIFA EXPERIENCE`}),e[3]=s):s=e[3];let c;return e[4]===Symbol.for(`react.memo_cache_sentinel`)?(c=(0,o.jsxs)(i.header,{initial:t,animate:n,transition:r,className:`\r
+\r
+        relative\r
+\r
+        pt-20\r
+\r
+        text-center\r
+\r
+        `,children:[s,(0,o.jsxs)(`h1`,{className:`\r
+\r
+            mt-5\r
+\r
+            text-5xl\r
+\r
+            md:text-7xl\r
+\r
+            font-black\r
+\r
+            `,children:[`WORLD CUP`,(0,o.jsx)(`span`,{className:`\r
+\r
+                block\r
+\r
+                text-yellow-400\r
+\r
+                `,children:`QATAR 2022`})]}),(0,o.jsx)(`p`,{className:`\r
+\r
+            mt-6\r
+\r
+            text-white/50\r
+\r
+            `,children:`Camino hacia la tercera estrella`})]}),e[4]=c):c=e[4],c}var c=[`Octavos`,`Cuartos`,`Semifinal`,`Final`];function l(){let e=(0,a.c)(1),t;return e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,o.jsx)(`div`,{className:`\r
+\r
+        mt-16\r
+\r
+        flex\r
+\r
+        flex-wrap\r
+\r
+        justify-center\r
+\r
+        gap-5\r
+\r
+        `,children:c.map(u)}),e[0]=t):t=e[0],t}function u(e,t){return(0,o.jsx)(i.button,{whileHover:{scale:1.05},className:`
+
+                    rounded-full
+
+                    px-8
+
+                    py-3
+
+                    text-sm
+
+                    font-bold
+
+                    uppercase
+
+                    tracking-widest
+
+
+                    ${t===3?`bg-yellow-400 text-black`:`bg-white/10 text-white`}
+
+
+                    `,children:e},e)}var d=e(t(),1),f={round16:[{matchId:1,teamA:`🇦🇷 Argentina`,teamB:`🇦🇺 Australia`},{matchId:4,teamA:`🇳🇱 Países Bajos`,teamB:`🇺🇸 Estados Unidos`},{matchId:5,teamA:`🇧🇷 Brasil`,teamB:`🇰🇷 Corea`},{matchId:6,teamA:`🇫🇷 Francia`,teamB:`🇵🇱 Polonia`}],quarter:[{matchId:2,teamA:`🇦🇷 Argentina`,teamB:`🇳🇱 Países Bajos`},{matchId:7,teamA:`🇭🇷 Croacia`,teamB:`🇧🇷 Brasil`},{matchId:8,teamA:`🇫🇷 Francia`,teamB:`🇬🇧 Inglaterra`},{matchId:9,teamA:`🇲🇦 Marruecos`,teamB:`🇵🇹 Portugal`}],semi:[{matchId:10,teamA:`🇦🇷 Argentina`,teamB:`🇭🇷 Croacia`},{matchId:11,teamA:`🇫🇷 Francia`,teamB:`🇲🇦 Marruecos`}],final:[{matchId:3,teamA:`🇦🇷 Argentina`,teamB:`🇫🇷 Francia`}]},p=[{id:1,teamA:`🇦🇷 Argentina`,teamB:`🇦🇺 Australia`,scoreA:2,scoreB:1,stage:`Octavos de final`,date:`3 Diciembre 2022`,stadium:`Ahmad Bin Ali Stadium`,mvp:`Lionel Messi`,goals:[{player:`Lionel Messi`,minute:35,team:`A`},{player:`Julián Álvarez`,minute:57,team:`A`}],stats:{possessionA:57,possessionB:43,shotsA:14,shotsB:5}},{id:2,teamA:`🇦🇷 Argentina`,teamB:`🇳🇱 Países Bajos`,scoreA:2,scoreB:2,stage:`Cuartos de final`,date:`9 Diciembre 2022`,stadium:`Lusail Stadium`,mvp:`Emiliano Martínez`,goals:[{player:`Nahuel Molina`,minute:35,team:`A`},{player:`Lionel Messi`,minute:73,team:`A`},{player:`Wout Weghorst`,minute:83,team:`B`},{player:`Wout Weghorst`,minute:101,team:`B`}],penalties:[{player:`Virgil van Dijk`,scored:!1},{player:`Steven Berghuis`,scored:!1},{player:`Lionel Messi`,scored:!0},{player:`Leandro Paredes`,scored:!0}],stats:{possessionA:48,possessionB:52,shotsA:8,shotsB:9}},{id:3,teamA:`🇦🇷 Argentina`,teamB:`🇫🇷 Francia`,scoreA:3,scoreB:3,stage:`Final Mundial Qatar 2022`,date:`18 Diciembre 2022`,stadium:`Estadio Lusail`,mvp:`Lionel Messi`,goals:[{player:`Lionel Messi`,minute:23,team:`A`,type:`penalty`},{player:`Ángel Di María`,minute:36,team:`A`},{player:`Kylian Mbappé`,minute:80,team:`B`,type:`penalty`},{player:`Kylian Mbappé`,minute:81,team:`B`},{player:`Lionel Messi`,minute:108,team:`A`},{player:`Kylian Mbappé`,minute:118,team:`B`,type:`penalty`}],penalties:[{player:`Lionel Messi`,scored:!0},{player:`Paulo Dybala`,scored:!0},{player:`Leandro Paredes`,scored:!0},{player:`Gonzalo Montiel`,scored:!0},{player:`Kylian Mbappé`,scored:!0},{player:`Kingsley Coman`,scored:!1},{player:`Aurélien Tchouaméni`,scored:!1}],stats:{possessionA:54,possessionB:46,shotsA:10,shotsB:7}}];function m(e){let t=(0,a.c)(4),{goals:n}=e,r;t[0]===n?r=t[1]:(r=n.map(h),t[0]=n,t[1]=r);let i;return t[2]===r?i=t[3]:(i=(0,o.jsx)(`div`,{className:`\r
+\r
+        mt-10\r
+\r
+        space-y-4\r
+\r
+        `,children:r}),t[2]=r,t[3]=i),i}function h(e,t){return(0,o.jsxs)(i.div,{initial:{opacity:0,x:-30},animate:{opacity:1,x:0},transition:{delay:t*.1},className:`\r
+\r
+                    flex\r
+\r
+                    justify-between\r
+\r
+                    rounded-xl\r
+\r
+                    bg-white/5\r
+\r
+                    px-5\r
+\r
+                    py-4\r
+\r
+                    `,children:[(0,o.jsxs)(`span`,{children:[`⚽ `,e.player]}),(0,o.jsxs)(`strong`,{className:`\r
+\r
+                        text-yellow-400\r
+\r
+                        `,children:[e.minute,`'`]})]},t)}function g(e){let t=(0,a.c)(12),{title:n,valueA:r,valueB:i}=e,s;t[0]===n?s=t[1]:(s=(0,o.jsx)(`p`,{className:`\r
+\r
+            text-white/50\r
+\r
+            text-sm\r
+\r
+            `,children:n}),t[0]=n,t[1]=s);let c;t[2]===r?c=t[3]:(c=(0,o.jsx)(`span`,{children:r}),t[2]=r,t[3]=c);let l;t[4]===i?l=t[5]:(l=(0,o.jsx)(`span`,{children:i}),t[4]=i,t[5]=l);let u;t[6]!==c||t[7]!==l?(u=(0,o.jsxs)(`div`,{className:`\r
+\r
+            mt-3\r
+\r
+            flex\r
+\r
+            justify-between\r
+\r
+            font-bold\r
+\r
+            `,children:[c,l]}),t[6]=c,t[7]=l,t[8]=u):u=t[8];let d;return t[9]!==s||t[10]!==u?(d=(0,o.jsxs)(`div`,{className:`\r
+\r
+        rounded-2xl\r
+\r
+        border\r
+\r
+        border-white/10\r
+\r
+        bg-white/5\r
+\r
+        p-5\r
+\r
+        text-center\r
+\r
+        `,children:[s,u]}),t[9]=s,t[10]=u,t[11]=d):d=t[11],d}function _(e){let t=(0,a.c)(5),{penalties:n}=e,r;t[0]===Symbol.for(`react.memo_cache_sentinel`)?(r=(0,o.jsx)(`h3`,{className:`text-2xl font-black`,children:`Definición por penales`}),t[0]=r):r=t[0];let i;t[1]===n?i=t[2]:(i=n.map(v),t[1]=n,t[2]=i);let s;return t[3]===i?s=t[4]:(s=(0,o.jsxs)(`div`,{className:`mt-10`,children:[r,(0,o.jsx)(`div`,{className:`mt-5 space-y-3`,children:i})]}),t[3]=i,t[4]=s),s}function v(e,t){return(0,o.jsxs)(i.div,{initial:{opacity:0,x:-20},animate:{opacity:1,x:0},className:`\r
+\r
+                    flex\r
+\r
+                    justify-between\r
+\r
+                    rounded-xl\r
+\r
+                    bg-white/5\r
+\r
+                    p-4\r
+\r
+                    `,children:[(0,o.jsx)(`span`,{children:e.player}),(0,o.jsx)(`span`,{children:e.scored?`⚽`:`❌`})]},t)}function y(e){let t=(0,a.c)(73),{match:n,close:r}=e,s,c,l,u;t[0]===Symbol.for(`react.memo_cache_sentinel`)?(s={opacity:0},c={opacity:1},l={opacity:0},u={duration:.4},t[0]=s,t[1]=c,t[2]=l,t[3]=u):(s=t[0],c=t[1],l=t[2],u=t[3]);let d;t[4]===r?d=t[5]:(d=(0,o.jsx)(`button`,{onClick:r,className:`\r
+\r
+                fixed\r
+\r
+                right-8\r
+\r
+                top-8\r
+\r
+                z-50\r
+\r
+                rounded-full\r
+\r
+                border\r
+\r
+                border-white/20\r
+\r
+                bg-white/10\r
+\r
+                px-6\r
+\r
+                py-3\r
+\r
+                text-sm\r
+\r
+                font-bold\r
+\r
+                text-white\r
+\r
+                backdrop-blur-xl\r
+\r
+                transition\r
+\r
+                hover:bg-white/20\r
+\r
+                `,children:`Cerrar`}),t[4]=r,t[5]=d);let f,p;t[6]===Symbol.for(`react.memo_cache_sentinel`)?(f={opacity:0,y:-20},p={opacity:1,y:0},t[6]=f,t[7]=p):(f=t[6],p=t[7]);let h;t[8]===n.stage?h=t[9]:(h=(0,o.jsx)(i.p,{initial:f,animate:p,className:`\r
+\r
+                    text-center\r
+\r
+                    text-sm\r
+\r
+                    uppercase\r
+\r
+                    tracking-[0.5em]\r
+\r
+                    text-yellow-400\r
+\r
+                    `,children:n.stage}),t[8]=n.stage,t[9]=h);let v;t[10]===n.teamA?v=t[11]:(v=(0,o.jsx)(`h2`,{className:`\r
+\r
+                            text-3xl\r
+\r
+                            font-black\r
+\r
+                            `,children:n.teamA}),t[10]=n.teamA,t[11]=v);let y,b,x;t[12]===Symbol.for(`react.memo_cache_sentinel`)?(y={scale:0},b={scale:1},x={delay:.3},t[12]=y,t[13]=b,t[14]=x):(y=t[12],b=t[13],x=t[14]);let S;t[15]===n.scoreA?S=t[16]:(S=(0,o.jsx)(i.p,{initial:y,animate:b,transition:x,className:`\r
+\r
+                            mt-4\r
+\r
+                            text-7xl\r
+\r
+                            font-black\r
+\r
+                            text-yellow-400\r
+\r
+                            `,children:n.scoreA}),t[15]=n.scoreA,t[16]=S);let C;t[17]!==S||t[18]!==v?(C=(0,o.jsxs)(`div`,{className:`\r
+\r
+                        text-center\r
+\r
+                        `,children:[v,S]}),t[17]=S,t[18]=v,t[19]=C):C=t[19];let w;t[20]===Symbol.for(`react.memo_cache_sentinel`)?(w=(0,o.jsx)(`span`,{className:`\r
+\r
+                        text-5xl\r
+\r
+                        font-black\r
+\r
+                        text-white/40\r
+\r
+                        `,children:`-`}),t[20]=w):w=t[20];let T;t[21]===n.teamB?T=t[22]:(T=(0,o.jsx)(`h2`,{className:`\r
+\r
+                            text-3xl\r
+\r
+                            font-black\r
+\r
+                            `,children:n.teamB}),t[21]=n.teamB,t[22]=T);let E,D,O;t[23]===Symbol.for(`react.memo_cache_sentinel`)?(E={scale:0},D={scale:1},O={delay:.3},t[23]=E,t[24]=D,t[25]=O):(E=t[23],D=t[24],O=t[25]);let k;t[26]===n.scoreB?k=t[27]:(k=(0,o.jsx)(i.p,{initial:E,animate:D,transition:O,className:`\r
+\r
+                            mt-4\r
+\r
+                            text-7xl\r
+\r
+                            font-black\r
+\r
+                            text-yellow-400\r
+\r
+                            `,children:n.scoreB}),t[26]=n.scoreB,t[27]=k);let A;t[28]!==T||t[29]!==k?(A=(0,o.jsxs)(`div`,{className:`\r
+\r
+                        text-center\r
+\r
+                        `,children:[T,k]}),t[28]=T,t[29]=k,t[30]=A):A=t[30];let j;t[31]!==C||t[32]!==A?(j=(0,o.jsxs)(`div`,{className:`\r
+\r
+                    mt-12\r
+\r
+                    flex\r
+\r
+                    flex-col\r
+\r
+                    items-center\r
+\r
+                    justify-center\r
+\r
+                    gap-8\r
+\r
+                    md:flex-row\r
+\r
+                    `,children:[C,w,A]}),t[31]=C,t[32]=A,t[33]=j):j=t[33];let M;t[34]===n.date?M=t[35]:(M=(0,o.jsx)(`p`,{children:n.date}),t[34]=n.date,t[35]=M);let N;t[36]===n.stadium?N=t[37]:(N=(0,o.jsx)(`p`,{children:n.stadium}),t[36]=n.stadium,t[37]=N);let P;t[38]!==M||t[39]!==N?(P=(0,o.jsxs)(`div`,{className:`\r
+\r
+                    mt-10\r
+\r
+                    text-center\r
+\r
+                    text-white/60\r
+\r
+                    `,children:[M,N]}),t[38]=M,t[39]=N,t[40]=P):P=t[40];let F;t[41]===Symbol.for(`react.memo_cache_sentinel`)?(F=(0,o.jsx)(`h3`,{className:`\r
+\r
+                        text-2xl\r
+\r
+                        font-black\r
+\r
+                        `,children:`⚽ Goles`}),t[41]=F):F=t[41];let I;t[42]===n.goals?I=t[43]:(I=(0,o.jsxs)(`section`,{className:`\r
+\r
+                    mt-16\r
+\r
+                    `,children:[F,(0,o.jsx)(m,{goals:n.goals})]}),t[42]=n.goals,t[43]=I);let L;t[44]===n.penalties?L=t[45]:(L=n.penalties&&(0,o.jsx)(_,{penalties:n.penalties}),t[44]=n.penalties,t[45]=L);let R;t[46]===Symbol.for(`react.memo_cache_sentinel`)?(R=(0,o.jsx)(`h3`,{className:`\r
+\r
+                        text-2xl\r
+\r
+                        font-black\r
+\r
+                        `,children:`📊 Estadísticas`}),t[46]=R):R=t[46];let z=`${n.stats.possessionA}%`,B=`${n.stats.possessionB}%`,V;t[47]!==z||t[48]!==B?(V=(0,o.jsx)(g,{title:`Posesión`,valueA:z,valueB:B}),t[47]=z,t[48]=B,t[49]=V):V=t[49];let H=`${n.stats.shotsA}`,U=`${n.stats.shotsB}`,W;t[50]!==H||t[51]!==U?(W=(0,o.jsx)(g,{title:`Tiros`,valueA:H,valueB:U}),t[50]=H,t[51]=U,t[52]=W):W=t[52];let G;t[53]!==V||t[54]!==W?(G=(0,o.jsxs)(`section`,{className:`\r
+\r
+                    mt-16\r
+\r
+                    `,children:[R,(0,o.jsxs)(`div`,{className:`\r
+\r
+                        mt-6\r
+\r
+                        grid\r
+\r
+                        gap-5\r
+\r
+                        md:grid-cols-2\r
+\r
+                        `,children:[V,W]})]}),t[53]=V,t[54]=W,t[55]=G):G=t[55];let K,q,J;t[56]===Symbol.for(`react.memo_cache_sentinel`)?(K={opacity:0,y:30},q={opacity:1,y:0},J={delay:.5},t[56]=K,t[57]=q,t[58]=J):(K=t[56],q=t[57],J=t[58]);let Y;t[59]===Symbol.for(`react.memo_cache_sentinel`)?(Y=(0,o.jsx)(`p`,{className:`\r
+\r
+                        text-sm\r
+\r
+                        uppercase\r
+\r
+                        tracking-widest\r
+\r
+                        text-white/60\r
+\r
+                        `,children:`Jugador del partido`}),t[59]=Y):Y=t[59];let X;t[60]===n.mvp?X=t[61]:(X=(0,o.jsxs)(i.div,{initial:K,animate:q,transition:J,className:`\r
+\r
+                    mt-12\r
+\r
+                    rounded-3xl\r
+\r
+                    border\r
+\r
+                    border-yellow-400/30\r
+\r
+                    bg-yellow-400/10\r
+\r
+                    p-8\r
+\r
+                    text-center\r
+\r
+                    `,children:[Y,(0,o.jsxs)(`h3`,{className:`\r
+\r
+                        mt-3\r
+\r
+                        text-4xl\r
+\r
+                        font-black\r
+\r
+                        text-yellow-400\r
+\r
+                        `,children:[`🏆 `,n.mvp]})]}),t[60]=n.mvp,t[61]=X);let Z;t[62]!==j||t[63]!==P||t[64]!==I||t[65]!==L||t[66]!==G||t[67]!==X||t[68]!==h?(Z=(0,o.jsxs)(`div`,{className:`\r
+\r
+                mx-auto\r
+\r
+                max-w-5xl\r
+\r
+                pt-20\r
+\r
+                text-white\r
+\r
+                `,children:[h,j,P,I,L,G,X]}),t[62]=j,t[63]=P,t[64]=I,t[65]=L,t[66]=G,t[67]=X,t[68]=h,t[69]=Z):Z=t[69];let Q;return t[70]!==Z||t[71]!==d?(Q=(0,o.jsxs)(i.div,{initial:s,animate:c,exit:l,transition:u,className:`\r
+\r
+            fixed\r
+\r
+            inset-0\r
+\r
+            z-50\r
+\r
+            overflow-y-auto\r
+\r
+            bg-black/95\r
+\r
+            backdrop-blur-xl\r
+\r
+            p-6\r
+\r
+            `,children:[d,Z]}),t[70]=Z,t[71]=d,t[72]=Q):Q=t[72],Q}function b(e){let t=(0,a.c)(17),{matchId:n,teamA:r,teamB:s,onClick:c}=e,l,u;t[0]===Symbol.for(`react.memo_cache_sentinel`)?(l={scale:1.05,y:-5},u={scale:.97},t[0]=l,t[1]=u):(l=t[0],u=t[1]);let d;t[2]!==n||t[3]!==c?(d=()=>c(n),t[2]=n,t[3]=c,t[4]=d):d=t[4];let f;t[5]===Symbol.for(`react.memo_cache_sentinel`)?(f=(0,o.jsx)(`div`,{className:`\r
+\r
+absolute\r
+\r
+inset-0\r
+\r
+bg-gradient-to-br\r
+\r
+from-white/10\r
+\r
+to-transparent\r
+\r
+`}),t[5]=f):f=t[5];let p;t[6]===r?p=t[7]:(p=(0,o.jsx)(`p`,{className:`font-black text-lg`,children:r}),t[6]=r,t[7]=p);let m;t[8]===Symbol.for(`react.memo_cache_sentinel`)?(m=(0,o.jsx)(`div`,{className:`h-px bg-white/20`}),t[8]=m):m=t[8];let h;t[9]===s?h=t[10]:(h=(0,o.jsx)(`p`,{className:`font-black text-lg`,children:s}),t[9]=s,t[10]=h);let g;t[11]!==p||t[12]!==h?(g=(0,o.jsxs)(`div`,{className:`relative z-10 space-y-4`,children:[p,m,h]}),t[11]=p,t[12]=h,t[13]=g):g=t[13];let _;return t[14]!==d||t[15]!==g?(_=(0,o.jsxs)(i.button,{whileHover:l,whileTap:u,onClick:d,className:`\r
+\r
+relative\r
+\r
+w-full\r
+\r
+overflow-hidden\r
+\r
+rounded-3xl\r
+\r
+border\r
+\r
+border-white/10\r
+\r
+bg-white/5\r
+\r
+p-3\r
+\r
+md:p3\r
+\r
+lg:p-5\r
+\r
+text-left\r
+\r
+text-white\r
+\r
+shadow-2xl\r
+\r
+backdrop-blur-xl\r
+\r
+`,children:[f,g]}),t[14]=d,t[15]=g,t[16]=_):_=t[16],_}function x(e){let t=(0,a.c)(15),{title:n,matches:r,onSelect:s}=e,c,l,u;t[0]===Symbol.for(`react.memo_cache_sentinel`)?(c={opacity:0,y:40},l={opacity:1,y:0},u={duration:.6},t[0]=c,t[1]=l,t[2]=u):(c=t[0],l=t[1],u=t[2]);let d;t[3]===n?d=t[4]:(d=(0,o.jsx)(`h2`,{className:`\r
+\r
+text-center\r
+\r
+text-[9px]\r
+\r
+sm:text-[10px]\r
+\r
+md:text-xs\r
+\r
+lg:text-sm\r
+\r
+font-black\r
+\r
+uppercase\r
+\r
+tracking-[0.25em]\r
+\r
+text-yellow-400\r
+\r
+`,children:n}),t[3]=n,t[4]=d);let f;if(t[5]!==r||t[6]!==s){let e;t[8]===s?e=t[9]:(e=e=>(0,o.jsx)(b,{matchId:e.matchId,teamA:e.teamA,teamB:e.teamB,onClick:s},e.matchId),t[8]=s,t[9]=e),f=r.map(e),t[5]=r,t[6]=s,t[7]=f}else f=t[7];let p;t[10]===f?p=t[11]:(p=(0,o.jsx)(`div`,{className:`\r
+\r
+flex\r
+\r
+w-full\r
+\r
+flex-col\r
+\r
+gap-5\r
+\r
+lg:gap-6\r
+\r
+`,children:f}),t[10]=f,t[11]=p);let m;return t[12]!==d||t[13]!==p?(m=(0,o.jsxs)(i.div,{initial:c,animate:l,transition:u,className:`\r
+\r
+flex\r
+\r
+flex-shrink-0\r
+\r
+w-[120px]\r
+\r
+sm:w-[135px]\r
+\r
+md:w-[150px]\r
+\r
+lg:w-[170px]\r
+\r
+xl:w-[190px]\r
+\r
+2xl:w-[210px]\r
+\r
+flex-col\r
+\r
+gap-6\r
+\r
+`,children:[d,p]}),t[12]=d,t[13]=p,t[14]=m):m=t[14],m}function S(){let e=(0,a.c)(5),t,n,r;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t={opacity:0,scale:.6},n={opacity:1,scale:1},r={delay:1,duration:.6},e[0]=t,e[1]=n,e[2]=r):(t=e[0],n=e[1],r=e[2]);let s;e[3]===Symbol.for(`react.memo_cache_sentinel`)?(s=(0,o.jsx)(`div`,{className:`\r
+\r
+                absolute\r
+\r
+                inset-0\r
+\r
+                bg-[radial-gradient(circle,rgba(250,204,21,.18),transparent_70%)]\r
+\r
+                `}),e[3]=s):s=e[3];let c;return e[4]===Symbol.for(`react.memo_cache_sentinel`)?(c=(0,o.jsxs)(i.div,{initial:t,animate:n,transition:r,className:`\r
+\r
+            relative\r
+\r
+            flex\r
+\r
+            flex-shrink-0\r
+\r
+            w-[220px]\r
+\r
+            sm:w-[250px]\r
+\r
+            md:w-[280px]\r
+\r
+            lg:w-[300px]\r
+\r
+            flex-col\r
+\r
+            items-center\r
+\r
+            justify-center\r
+\r
+            overflow-hidden\r
+\r
+            rounded-[2rem]\r
+\r
+            border\r
+\r
+            border-yellow-400/40\r
+\r
+            bg-gradient-to-b\r
+\r
+            from-yellow-400/20\r
+\r
+            via-yellow-500/10\r
+\r
+            to-black\r
+\r
+            px-6\r
+\r
+            py-10\r
+\r
+            text-center\r
+\r
+            text-white\r
+\r
+            shadow-[0_0_80px_rgba(250,204,21,.25)]\r
+\r
+            `,children:[s,(0,o.jsx)(i.div,{animate:{rotate:360},transition:{duration:15,repeat:1/0,ease:`linear`},className:`\r
+\r
+                relative\r
+\r
+                z-10\r
+\r
+                text-6xl\r
+\r
+                `,children:`🏆`}),(0,o.jsx)(`h2`,{className:`\r
+\r
+                relative\r
+\r
+                z-10\r
+\r
+                mt-6\r
+\r
+                text-xl\r
+\r
+                md:text-2xl\r
+\r
+                lg:text-3xl\r
+\r
+                font-black\r
+\r
+                tracking-[0.12em]\r
+\r
+                `,children:`ARGENTINA`}),(0,o.jsx)(`p`,{className:`\r
+\r
+                relative\r
+\r
+                z-10\r
+\r
+                mt-3\r
+\r
+                text-xs\r
+\r
+                md:text-sm\r
+\r
+                font-bold\r
+\r
+                tracking-[0.2em]\r
+\r
+                text-yellow-300\r
+\r
+                `,children:`CAMPEÓN DEL MUNDO`}),(0,o.jsx)(`p`,{className:`\r
+\r
+                relative\r
+\r
+                z-10\r
+\r
+                mt-2\r
+\r
+                text-sm\r
+\r
+                text-white/70\r
+\r
+                `,children:`Qatar 2022`})]}),e[4]=c):c=e[4],c}function C(e){let t=(0,a.c)(8),{height:n}=e,r=n===void 0?`120px`:n,s,c,l;t[0]===Symbol.for(`react.memo_cache_sentinel`)?(s={scaleX:0,opacity:0},c={scaleX:1,opacity:1},l={duration:.8},t[0]=s,t[1]=c,t[2]=l):(s=t[0],c=t[1],l=t[2]);let u;t[3]===r?u=t[4]:(u={height:r},t[3]=r,t[4]=u);let d;t[5]===Symbol.for(`react.memo_cache_sentinel`)?(d=(0,o.jsx)(`div`,{className:`\r
+\r
+                absolute\r
+\r
+                left-0\r
+\r
+                top-1/2\r
+\r
+                h-[2px]\r
+\r
+                w-full\r
+\r
+                bg-gradient-to-r\r
+\r
+                from-yellow-400\r
+\r
+                via-yellow-300\r
+\r
+                to-transparent\r
+\r
+                shadow-[0_0_10px_rgba(250,204,21,.8)]\r
+\r
+                `}),t[5]=d):d=t[5];let f;return t[6]===u?f=t[7]:(f=(0,o.jsx)(i.div,{initial:s,animate:c,transition:l,style:u,className:`\r
+\r
+            relative\r
+\r
+            flex-shrink-0\r
+\r
+            w-4\r
+\r
+            sm:w-5\r
+\r
+            md:w-6\r
+\r
+            lg:w-8\r
+\r
+            xl:w-10\r
+\r
+            origin-left\r
+\r
+            `,children:d}),t[6]=u,t[7]=f),f}function w(){let e=(0,a.c)(8),[t,n]=(0,d.useState)(null),r;e[0]===t?r=e[1]:(r=p.find(e=>e.id===t),e[0]=t,e[1]=r);let i=r,s;e[2]===Symbol.for(`react.memo_cache_sentinel`)?(s=(0,o.jsx)(`div`,{className:`\r
+\r
+                pointer-events-none\r
+\r
+                absolute\r
+\r
+                inset-0\r
+\r
+                bg-[radial-gradient(circle_at_center,rgba(250,204,21,0.12),transparent_40%)]\r
+\r
+                `}),e[2]=s):s=e[2];let c;e[3]===Symbol.for(`react.memo_cache_sentinel`)?(c=(0,o.jsxs)(`div`,{className:`\r
+\r
+                flex\r
+\r
+                w-max\r
+\r
+                items-center\r
+\r
+                justify-start\r
+\r
+                gap-2\r
+\r
+                sm:gap-3\r
+\r
+                md:gap-4\r
+\r
+                lg:gap-5\r
+\r
+                xl:gap-6\r
+\r
+                px-2\r
+\r
+                `,children:[(0,o.jsx)(x,{title:`Octavos`,matches:f.round16,onSelect:n}),(0,o.jsx)(C,{}),(0,o.jsx)(x,{title:`Cuartos`,matches:f.quarter,onSelect:n}),(0,o.jsx)(C,{}),(0,o.jsx)(x,{title:`Semifinal`,matches:f.semi,onSelect:n}),(0,o.jsx)(C,{}),(0,o.jsx)(x,{title:`Final`,matches:f.final,onSelect:n}),(0,o.jsx)(C,{}),(0,o.jsx)(S,{})]}),e[3]=c):c=e[3];let l;e[4]===i?l=e[5]:(l=i&&(0,o.jsx)(y,{match:i,close:()=>n(null)}),e[4]=i,e[5]=l);let u;return e[6]===l?u=e[7]:(u=(0,o.jsxs)(`section`,{className:`\r
+\r
+            relative\r
+\r
+            min-h-screen\r
+\r
+            overflow-x-auto\r
+\r
+            overflow-y-hidden\r
+\r
+            bg-black\r
+\r
+            px-4\r
+\r
+            py-24\r
+\r
+            `,children:[s,c,l]}),e[6]=l,e[7]=u),u}function T(){let e=(0,a.c)(1),t;return e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,o.jsxs)(`main`,{className:`\r
+\r
+        relative\r
+\r
+        min-h-screen\r
+\r
+        overflow-hidden\r
+\r
+\r
+        bg-gradient-to-b\r
+\r
+        from-[#020617]\r
+\r
+        via-black\r
+\r
+        to-black\r
+\r
+\r
+        text-white\r
+\r
+        `,children:[(0,o.jsx)(`div`,{className:`\r
+\r
+            absolute\r
+\r
+            top-0\r
+\r
+            left-1/2\r
+\r
+            -translate-x-1/2\r
+\r
+\r
+            h-[500px]\r
+\r
+            w-[500px]\r
+\r
+\r
+            rounded-full\r
+\r
+\r
+            bg-yellow-400/10\r
+\r
+\r
+            blur-[120px]\r
+\r
+            `}),(0,o.jsx)(s,{}),(0,o.jsx)(l,{}),(0,o.jsx)(w,{})]}),e[0]=t):t=e[0],t}export{T as default};

@@ -1,0 +1,938 @@
+import{c as e,i as t,n,r,t as i}from"./index-j3qqj71Z.js";import{t as a}from"./proxy-CZjTi9Ce.js";var o=n(),s=i();function c(){let e=(0,o.c)(6),t,n;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t={rotate:360},n={duration:20,repeat:1/0,ease:`linear`},e[0]=t,e[1]=n):(t=e[0],n=e[1]);let r,i;e[2]===Symbol.for(`react.memo_cache_sentinel`)?(r=(0,s.jsx)(a.div,{className:`\r
+\r
+            absolute\r
+\r
+            inset-0\r
+\r
+\r
+            bg-[linear-gradient(to_bottom,#74ACDF_0%,#74ACDF_33%,white_33%,white_66%,#74ACDF_66%,#74ACDF_100%)]\r
+\r
+            `,animate:{scaleX:[1,1.05,1]},transition:{duration:3,repeat:1/0,ease:`easeInOut`}}),i=(0,s.jsx)(`div`,{className:`\r
+\r
+            absolute\r
+\r
+            inset-0\r
+\r
+            bg-gradient-to-br\r
+\r
+            from-white/30\r
+\r
+            via-transparent\r
+\r
+            to-blue-900/20\r
+\r
+            `}),e[2]=r,e[3]=i):(r=e[2],i=e[3]);let c;e[4]===Symbol.for(`react.memo_cache_sentinel`)?(c=(0,s.jsx)(a.div,{className:`\r
+\r
+            relative\r
+\r
+            z-10\r
+\r
+            h-14\r
+\r
+            w-14\r
+\r
+            sm:h-16\r
+\r
+            sm:w-16\r
+\r
+            rounded-full\r
+\r
+            bg-yellow-300\r
+\r
+            shadow-[0_0_60px_rgba(250,204,21,1)]\r
+\r
+            `,animate:{scale:[1,1.15,1],boxShadow:[`0 0 40px rgba(250,204,21,.7)`,`0 0 80px rgba(250,204,21,1)`,`0 0 40px rgba(250,204,21,.7)`]},transition:{duration:2,repeat:1/0,ease:`easeInOut`}}),e[4]=c):c=e[4];let l;return e[5]===Symbol.for(`react.memo_cache_sentinel`)?(l=(0,s.jsxs)(a.div,{className:`\r
+        relative\r
+\r
+        flex\r
+        items-center\r
+        justify-center\r
+\r
+        h-64\r
+        w-64\r
+\r
+        sm:h-72\r
+        sm:w-72\r
+\r
+        rounded-full\r
+\r
+        overflow-hidden\r
+\r
+        border\r
+        border-white/40\r
+\r
+        shadow-[0_0_120px_rgba(116,172,223,0.55)]\r
+\r
+        `,animate:t,transition:n,children:[r,i,c,(0,s.jsx)(a.div,{className:`\r
+\r
+            absolute\r
+\r
+            inset-0\r
+\r
+            bg-gradient-to-r\r
+\r
+            from-transparent\r
+\r
+            via-white/35\r
+\r
+            to-transparent\r
+\r
+            `,animate:{x:[`-120%`,`120%`]},transition:{duration:3,repeat:1/0,ease:`linear`}}),(0,s.jsx)(`div`,{className:`\r
+\r
+            absolute\r
+\r
+            inset-3\r
+\r
+            rounded-full\r
+\r
+            border\r
+\r
+            border-white/30\r
+\r
+            `})]}),e[5]=l):l=e[5],l}function l(){let e=(0,o.c)(2),t;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=Array.from({length:70}),e[0]=t):t=e[0];let n=t,r;return e[1]===Symbol.for(`react.memo_cache_sentinel`)?(r=(0,s.jsx)(`div`,{className:`\r
+        absolute\r
+        inset-0\r
+        overflow-hidden\r
+        `,children:n.map(u)}),e[1]=r):r=e[1],r}function u(e,t){return(0,s.jsx)(a.span,{className:`\r
+                absolute\r
+\r
+                h-1.5\r
+                w-1.5\r
+\r
+                rounded-full\r
+\r
+                bg-blue-200\r
+\r
+                shadow-[0_0_15px_rgba(147,197,253,1)]\r
+\r
+                `,style:{left:`${Math.random()*100}%`,top:`${Math.random()*100}%`},animate:{y:[0,-80,-180],opacity:[0,1,0],scale:[.5,1.5,0]},transition:{duration:4+Math.random()*4,repeat:1/0,delay:Math.random()*4,ease:`easeOut`}},t)}function d(e){let t=(0,o.c)(13),{phase:n}=e,r=n!==`loading`,i;t[0]===Symbol.for(`react.memo_cache_sentinel`)?(i={opacity:1,scale:1,filter:`blur(0px)`},t[0]=i):i=t[0];let u;t[1]===r?u=t[2]:(u=r?{opacity:0,scale:1.12,filter:`blur(18px)`}:{opacity:1,scale:1,filter:`blur(0px)`},t[1]=r,t[2]=u);let d;t[3]===Symbol.for(`react.memo_cache_sentinel`)?(d={duration:1.2,ease:`easeInOut`},t[3]=d):d=t[3];let f;t[4]===Symbol.for(`react.memo_cache_sentinel`)?(f=(0,s.jsx)(l,{}),t[4]=f):f=t[4];let p;t[5]===Symbol.for(`react.memo_cache_sentinel`)?(p=(0,s.jsx)(a.div,{className:`\r
+\r
+            absolute\r
+\r
+            h-[500px]\r
+\r
+            w-[500px]\r
+\r
+            rounded-full\r
+\r
+            bg-blue-400/10\r
+\r
+            blur-[120px]\r
+\r
+            `,animate:{scale:[1,1.15,1]},transition:{duration:4,repeat:1/0,ease:`easeInOut`}}),t[5]=p):p=t[5];let m;t[6]===Symbol.for(`react.memo_cache_sentinel`)?(m=(0,s.jsx)(a.div,{initial:{opacity:0,scale:.7,filter:`blur(20px)`},animate:{opacity:1,scale:1,filter:`blur(0px)`},transition:{duration:1.2,ease:`easeOut`},children:(0,s.jsx)(c,{})}),t[6]=m):m=t[6];let h,g,_;t[7]===Symbol.for(`react.memo_cache_sentinel`)?(h={opacity:0,y:30,filter:`blur(10px)`},g={opacity:1,y:0,filter:`blur(0px)`},_={delay:1.2,duration:1},t[7]=h,t[8]=g,t[9]=_):(h=t[7],g=t[8],_=t[9]);let v;t[10]===Symbol.for(`react.memo_cache_sentinel`)?(v=(0,s.jsxs)(`div`,{className:`\r
+            relative\r
+\r
+            z-10\r
+\r
+            flex\r
+\r
+            flex-col\r
+\r
+            items-center\r
+\r
+            gap-10\r
+\r
+            `,children:[m,(0,s.jsxs)(a.div,{initial:h,animate:g,transition:_,className:`\r
+\r
+                text-center\r
+\r
+                `,children:[(0,s.jsx)(a.h1,{className:`\r
+\r
+                    text-4xl\r
+\r
+                    font-black\r
+\r
+                    tracking-[0.3em]\r
+\r
+                    text-white\r
+\r
+                    `,animate:{textShadow:[`0 0 0px rgba(255,255,255,0)`,`0 0 25px rgba(255,255,255,.5)`,`0 0 0px rgba(255,255,255,0)`]},transition:{duration:3,repeat:1/0},children:`ARGENTINA 2022`}),(0,s.jsx)(`p`,{className:`\r
+\r
+                    mt-4\r
+\r
+                    text-sm\r
+\r
+                    tracking-[0.5em]\r
+\r
+                    text-white/50\r
+\r
+                    `,children:`WORLD CUP EXPERIENCE`})]})]}),t[10]=v):v=t[10];let y;return t[11]===u?y=t[12]:(y=(0,s.jsxs)(a.section,{initial:i,animate:u,transition:d,className:`\r
+        fixed\r
+\r
+        inset-0\r
+\r
+        z-[100]\r
+\r
+        flex\r
+\r
+        items-center\r
+\r
+        justify-center\r
+\r
+        overflow-hidden\r
+\r
+        bg-black\r
+\r
+        `,children:[f,p,v]}),t[11]=u,t[12]=y),y}function f(e){let t=(0,o.c)(6),{active:n}=e,r;t[0]===Symbol.for(`react.memo_cache_sentinel`)?(r={opacity:0},t[0]=r):r=t[0];let i;t[1]===n?i=t[2]:(i=n?{opacity:[0,.9,0]}:{opacity:0},t[1]=n,t[2]=i);let c;t[3]===Symbol.for(`react.memo_cache_sentinel`)?(c={duration:1},t[3]=c):c=t[3];let l;return t[4]===i?l=t[5]:(l=(0,s.jsx)(a.div,{className:`\r
+        fixed\r
+        inset-0\r
+\r
+        z-[80]\r
+\r
+        pointer-events-none\r
+\r
+        bg-yellow-300\r
+\r
+        `,initial:r,animate:i,transition:c}),t[4]=i,t[5]=l),l}function p(e){let t=(0,o.c)(13),{open:n}=e,r;t[0]===n?r=t[1]:(r=n?{x:`-100%`}:{x:`0`},t[0]=n,t[1]=r);let i;t[2]===Symbol.for(`react.memo_cache_sentinel`)?(i={duration:1.6,ease:[.76,0,.24,1]},t[2]=i):i=t[2];let c;t[3]===r?c=t[4]:(c=(0,s.jsx)(a.div,{className:`\r
+        fixed\r
+\r
+        top-0\r
+        left-0\r
+\r
+        h-screen\r
+        w-1/2\r
+\r
+        z-[70]\r
+\r
+        bg-gradient-to-r\r
+\r
+        from-[#74ACDF]\r
+\r
+        via-white\r
+\r
+        to-[#74ACDF]\r
+\r
+        `,animate:r,transition:i}),t[3]=r,t[4]=c);let l;t[5]===n?l=t[6]:(l=n?{x:`100%`}:{x:`0`},t[5]=n,t[6]=l);let u;t[7]===Symbol.for(`react.memo_cache_sentinel`)?(u={duration:1.6,ease:[.76,0,.24,1]},t[7]=u):u=t[7];let d;t[8]===l?d=t[9]:(d=(0,s.jsx)(a.div,{className:`\r
+        fixed\r
+\r
+        top-0\r
+        right-0\r
+\r
+        h-screen\r
+        w-1/2\r
+\r
+        z-[70]\r
+\r
+        bg-gradient-to-l\r
+\r
+        from-[#74ACDF]\r
+\r
+        via-white\r
+\r
+        to-[#74ACDF]\r
+\r
+        `,animate:l,transition:u}),t[8]=l,t[9]=d);let f;return t[10]!==c||t[11]!==d?(f=(0,s.jsxs)(s.Fragment,{children:[c,d]}),t[10]=c,t[11]=d,t[12]=f):f=t[12],f}var m=`/World-Cup-2022/assets/world-cup-CIM0Uq0c.png`;function h(){let e=(0,o.c)(1),t;return e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,s.jsx)(a.div,{className:`\r
+        absolute\r
+\r
+        h-[600px]\r
+\r
+        w-[600px]\r
+\r
+        rounded-full\r
+\r
+        bg-yellow-300/20\r
+\r
+        blur-[120px]\r
+\r
+        `,animate:{scale:[1,1.15,1]},transition:{duration:3,repeat:1/0}}),e[0]=t):t=e[0],t}function g(e){let t=(0,o.c)(14),{visible:n}=e,r;t[0]===Symbol.for(`react.memo_cache_sentinel`)?(r={opacity:0},t[0]=r):r=t[0];let i;t[1]===n?i=t[2]:(i=n?{opacity:1}:{opacity:0},t[1]=n,t[2]=i);let c,l;t[3]===Symbol.for(`react.memo_cache_sentinel`)?(c={duration:1},l=(0,s.jsx)(h,{}),t[3]=c,t[4]=l):(c=t[3],l=t[4]);let u;t[5]===Symbol.for(`react.memo_cache_sentinel`)?(u={opacity:0,y:250,scale:.45,rotateX:25},t[5]=u):u=t[5];let d;t[6]===n?d=t[7]:(d=n?{opacity:1,y:0,scale:1,rotateX:0}:{},t[6]=n,t[7]=d);let f;t[8]===Symbol.for(`react.memo_cache_sentinel`)?(f={duration:2,ease:[.16,1,.3,1]},t[8]=f):f=t[8];let p;t[9]===d?p=t[10]:(p=(0,s.jsx)(a.img,{src:m,alt:`World Cup Trophy`,className:`\r
+\r
+            relative\r
+\r
+            z-10\r
+\r
+            h-[90vh]\r
+\r
+            object-contain\r
+\r
+\r
+            drop-shadow-[0_0_90px_rgba(250,204,21,.8)]\r
+\r
+            `,initial:u,animate:d,transition:f}),t[9]=d,t[10]=p);let g;return t[11]!==i||t[12]!==p?(g=(0,s.jsxs)(a.section,{className:`\r
+        fixed\r
+        inset-0\r
+\r
+        z-50\r
+\r
+        flex\r
+        items-center\r
+        justify-center\r
+\r
+        perspective-[1200px]\r
+\r
+        `,initial:r,animate:i,transition:c,children:[l,p]}),t[11]=i,t[12]=p,t[13]=g):g=t[13],g}function _(e){let t=(0,o.c)(10),{phase:n}=e,r=n===`flash`,i;t[0]===r?i=t[1]:(i=(0,s.jsx)(f,{active:r}),t[0]=r,t[1]=i);let a=n===`opening`||n===`trophy`||n===`complete`,c;t[2]===a?c=t[3]:(c=(0,s.jsx)(p,{open:a}),t[2]=a,t[3]=c);let l=n===`trophy`||n===`complete`,u;t[4]===l?u=t[5]:(u=(0,s.jsx)(g,{visible:l}),t[4]=l,t[5]=u);let d;return t[6]!==i||t[7]!==c||t[8]!==u?(d=(0,s.jsxs)(s.Fragment,{children:[i,c,u]}),t[6]=i,t[7]=c,t[8]=u,t[9]=d):d=t[9],d}function v(){let e=(0,o.c)(4),t,n,r;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,s.jsx)(`div`,{className:`\r
+            absolute\r
+            inset-0\r
+\r
+            bg-gradient-to-b\r
+\r
+            from-[#020617]\r
+\r
+            via-[#0f172a]\r
+\r
+            to-[#000000]\r
+\r
+            `}),n=(0,s.jsx)(`div`,{className:`\r
+\r
+            absolute\r
+\r
+            top-0\r
+\r
+            left-1/2\r
+\r
+            -translate-x-1/2\r
+\r
+\r
+            h-[45vh]\r
+\r
+            w-[120vw]\r
+\r
+\r
+            rounded-b-[50%]\r
+\r
+\r
+            border-b\r
+\r
+            border-white/10\r
+\r
+\r
+            bg-gradient-to-b\r
+\r
+            from-white/5\r
+\r
+            to-transparent\r
+\r
+\r
+            `}),r=(0,s.jsx)(`div`,{className:`\r
+\r
+            absolute\r
+\r
+            top-10\r
+\r
+            left-1/2\r
+\r
+            -translate-x-1/2\r
+\r
+\r
+            h-32\r
+\r
+            w-[80vw]\r
+\r
+\r
+            rounded-full\r
+\r
+\r
+            border\r
+\r
+            border-yellow-300/20\r
+\r
+\r
+            blur-sm\r
+\r
+            `}),e[0]=t,e[1]=n,e[2]=r):(t=e[0],n=e[1],r=e[2]);let i;return e[3]===Symbol.for(`react.memo_cache_sentinel`)?(i=(0,s.jsxs)(`div`,{className:`\r
+        absolute\r
+        inset-0\r
+        overflow-hidden\r
+        bg-black\r
+        `,children:[t,n,r,(0,s.jsx)(a.div,{className:`\r
+\r
+            absolute\r
+\r
+            bottom-0\r
+\r
+            left-1/2\r
+\r
+            -translate-x-1/2\r
+\r
+\r
+            h-[35vh]\r
+\r
+            w-[120vw]\r
+\r
+\r
+            rounded-t-[50%]\r
+\r
+\r
+            bg-gradient-to-t\r
+\r
+            from-green-950/40\r
+\r
+            to-transparent\r
+\r
+\r
+            `,animate:{opacity:[.5,.8,.5]},transition:{duration:5,repeat:1/0}})]}),e[3]=i):i=e[3],i}function y(){let e=(0,o.c)(6),t=r(),n;e[0]===t?n=e[1]:(n=()=>t(`/mundial`),e[0]=t,e[1]=n);let i,c;e[2]===Symbol.for(`react.memo_cache_sentinel`)?(i={scale:1.06},c={scale:.95},e[2]=i,e[3]=c):(i=e[2],c=e[3]);let l;return e[4]===n?l=e[5]:(l=(0,s.jsx)(a.button,{onClick:n,whileHover:i,whileTap:c,className:`\r
+\r
+        mt-10\r
+\r
+        rounded-full\r
+\r
+        bg-yellow-400\r
+\r
+\r
+        px-14\r
+\r
+        py-5\r
+\r
+\r
+        text-sm\r
+\r
+        font-black\r
+\r
+\r
+        tracking-[0.25em]\r
+\r
+\r
+        text-black\r
+\r
+\r
+        shadow-[0_0_50px_rgba(250,204,21,.5)]\r
+\r
+        `,children:`EXPLORAR MUNDIAL`}),e[4]=n,e[5]=l),l}function b(){let e=(0,o.c)(1),t;return e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,s.jsx)(s.Fragment,{children:(0,s.jsx)(a.div,{className:`\r
+\r
+        absolute\r
+\r
+        top-0\r
+\r
+        left-1/2\r
+\r
+        h-[300px]\r
+\r
+        w-[300px]\r
+\r
+        -translate-x-1/2\r
+\r
+        rounded-full\r
+\r
+        bg-yellow-300/20\r
+\r
+        blur-[100px]\r
+\r
+        `,animate:{scale:[1,1.4,1]},transition:{duration:3,repeat:1/0}})}),e[0]=t):t=e[0],t}function x(){let e=(0,o.c)(4),t,n,r;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,s.jsx)(a.div,{className:`\r
+\r
+            absolute\r
+\r
+            top-[5%]\r
+\r
+            left-1/2\r
+\r
+            -translate-x-1/2\r
+\r
+\r
+            h-[420px]\r
+\r
+            w-[110vw]\r
+\r
+\r
+            rounded-[50%]\r
+\r
+\r
+            border\r
+\r
+            border-white/10\r
+\r
+\r
+            bg-white/[0.02]\r
+\r
+\r
+            `,animate:{scaleX:[1,1.02,1]},transition:{duration:8,repeat:1/0}}),n=(0,s.jsx)(`div`,{className:`\r
+\r
+            absolute\r
+\r
+            top-[8%]\r
+\r
+            left-1/2\r
+\r
+            -translate-x-1/2\r
+\r
+\r
+            h-20\r
+\r
+            w-[90vw]\r
+\r
+\r
+            rounded-full\r
+\r
+\r
+            border-t\r
+\r
+            border-yellow-300/30\r
+\r
+\r
+            blur-sm\r
+\r
+\r
+            `}),r=(0,s.jsx)(`div`,{className:`\r
+\r
+            absolute\r
+\r
+            bottom-[180px]\r
+\r
+            left-1/2\r
+\r
+            -translate-x-1/2\r
+\r
+\r
+            h-[180px]\r
+\r
+\r
+            w-[100vw]\r
+\r
+\r
+            rounded-t-[50%]\r
+\r
+\r
+            bg-gradient-to-t\r
+\r
+            from-black\r
+\r
+            via-gray-950\r
+\r
+            to-transparent\r
+\r
+\r
+            opacity-80\r
+\r
+\r
+            `}),e[0]=t,e[1]=n,e[2]=r):(t=e[0],n=e[1],r=e[2]);let i;return e[3]===Symbol.for(`react.memo_cache_sentinel`)?(i=(0,s.jsxs)(`div`,{className:`\r
+        absolute\r
+\r
+        inset-0\r
+\r
+        overflow-hidden\r
+\r
+        pointer-events-none\r
+\r
+        z-[5]\r
+\r
+        `,children:[t,n,r,(0,s.jsx)(a.div,{className:`\r
+\r
+            absolute\r
+\r
+            bottom-0\r
+\r
+            left-1/2\r
+\r
+            -translate-x-1/2\r
+\r
+\r
+            h-[160px]\r
+\r
+            w-[80vw]\r
+\r
+\r
+            rounded-t-full\r
+\r
+\r
+            bg-gradient-to-t\r
+\r
+            from-green-900/40\r
+\r
+            to-transparent\r
+\r
+\r
+            `,animate:{opacity:[.4,.7,.4]},transition:{duration:5,repeat:1/0}})]}),e[3]=i):i=e[3],i}function S(){let e=(0,o.c)(7),t;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=Array.from({length:30}),e[0]=t):t=e[0];let n=t,r,i,c,l,u;e[1]===Symbol.for(`react.memo_cache_sentinel`)?(r={opacity:0,y:40},i={opacity:1,y:0},c={duration:1.5},l=(0,s.jsx)(`div`,{className:`\r
+\r
+                absolute\r
+\r
+                inset-0\r
+\r
+                bg-gradient-to-t\r
+\r
+                from-black\r
+\r
+                via-[#06152e]/90\r
+\r
+                to-transparent\r
+\r
+                `}),u=(0,s.jsx)(`div`,{className:`\r
+\r
+                absolute\r
+\r
+                inset-x-0\r
+\r
+                bottom-0\r
+\r
+                h-24\r
+\r
+                bg-gradient-to-t\r
+\r
+                from-blue-500/20\r
+\r
+                to-transparent\r
+\r
+                blur-2xl\r
+\r
+                `}),e[1]=r,e[2]=i,e[3]=c,e[4]=l,e[5]=u):(r=e[1],i=e[2],c=e[3],l=e[4],u=e[5]);let d;return e[6]===Symbol.for(`react.memo_cache_sentinel`)?(d=(0,s.jsxs)(a.div,{className:`\r
+\r
+            absolute\r
+\r
+            bottom-0\r
+\r
+            left-0\r
+\r
+            right-0\r
+\r
+\r
+            h-[130px]\r
+\r
+            sm:h-[180px]\r
+\r
+            md:h-[240px]\r
+\r
+\r
+            z-0\r
+\r
+            overflow-hidden\r
+\r
+            `,initial:r,animate:i,transition:c,children:[l,u,(0,s.jsx)(`div`,{className:`\r
+\r
+                absolute\r
+\r
+                bottom-0\r
+\r
+                left-0\r
+\r
+                right-0\r
+\r
+                flex\r
+\r
+                items-end\r
+\r
+                justify-around\r
+\r
+                px-2\r
+\r
+                `,children:n.map(C)})]}),e[6]=d):d=e[6],d}function C(e,t){return(0,s.jsx)(a.div,{className:`
+
+                        relative
+
+                        w-4
+
+                        sm:w-5
+
+                        rounded-full
+
+                        shadow-lg
+
+                        ${t%3==0?`bg-gradient-to-b from-[#74ACDF] to-black`:t%3==1?`bg-gradient-to-b from-white to-black`:`bg-gradient-to-b from-gray-700 to-black`}
+
+                        `,style:{height:`${35+Math.random()*45}px`},animate:{y:[0,-5,0]},transition:{duration:1.5+Math.random(),repeat:1/0,delay:Math.random()*2},children:(0,s.jsx)(`div`,{className:`\r
+\r
+                    absolute\r
+\r
+                    -top-3\r
+\r
+                    left-1/2\r
+\r
+                    -translate-x-1/2\r
+\r
+                    h-4\r
+\r
+                    w-4\r
+\r
+                    rounded-full\r
+\r
+                    bg-[#111827]\r
+\r
+                    `})},t)}function w(e){let t=(0,o.c)(6),{side:n}=e,r=`
+
+absolute
+
+
+top-[28%]
+
+sm:top-[30%]
+
+md:top-[35%]
+
+
+${n===`left`?`left-1 sm:left-4 md:left-10`:`right-1 sm:right-4 md:right-10`}
+
+
+
+z-10
+
+
+flex
+
+gap-2
+
+
+scale-75
+
+sm:scale-90
+
+md:scale-100
+
+
+`,i,c,l;t[0]===Symbol.for(`react.memo_cache_sentinel`)?(i={y:[0,-8,0]},c={duration:3,repeat:1/0,ease:`easeInOut`},l=(0,s.jsx)(`div`,{className:`\r
+\r
+h-52\r
+\r
+sm:h-64\r
+\r
+md:h-80\r
+\r
+\r
+w-1\r
+\r
+\r
+rounded-full\r
+\r
+\r
+bg-gradient-to-b\r
+\r
+from-white\r
+\r
+via-gray-400\r
+\r
+to-gray-900\r
+\r
+\r
+shadow-lg\r
+\r
+`}),t[0]=i,t[1]=c,t[2]=l):(i=t[0],c=t[1],l=t[2]);let u;t[3]===Symbol.for(`react.memo_cache_sentinel`)?(u=(0,s.jsxs)(a.div,{className:`\r
+\r
+relative\r
+\r
+h-28\r
+\r
+sm:h-36\r
+\r
+md:h-44\r
+\r
+\r
+w-20\r
+\r
+sm:w-24\r
+\r
+md:w-28\r
+\r
+\r
+overflow-hidden\r
+\r
+\r
+shadow-[0_0_35px_rgba(116,172,223,.6)]\r
+\r
+rounded-sm\r
+\r
+`,animate:{scaleX:[1,.94,1]},transition:{duration:2,repeat:1/0},children:[(0,s.jsx)(`div`,{className:`\r
+\r
+absolute\r
+\r
+inset-0\r
+\r
+bg-[linear-gradient(to_bottom,#74ACDF_0%,#74ACDF_33%,white_33%,white_66%,#74ACDF_66%,#74ACDF_100%)]\r
+\r
+`}),(0,s.jsx)(`div`,{className:`\r
+\r
+absolute\r
+\r
+left-1/2\r
+\r
+top-1/2\r
+\r
+-translate-x-1/2\r
+\r
+-translate-y-1/2\r
+\r
+\r
+h-5\r
+\r
+w-5\r
+\r
+sm:h-6\r
+\r
+sm:w-6\r
+\r
+\r
+rounded-full\r
+\r
+\r
+bg-yellow-400\r
+\r
+\r
+shadow-[0_0_25px_rgba(250,204,21,.9)]\r
+\r
+`})]}),t[3]=u):u=t[3];let d;return t[4]===r?d=t[5]:(d=(0,s.jsxs)(a.div,{className:r,animate:i,transition:c,children:[l,u]}),t[4]=r,t[5]=d),d}function T(){let e=(0,o.c)(1),t;return e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,s.jsxs)(s.Fragment,{children:[(0,s.jsx)(w,{side:`left`}),(0,s.jsx)(w,{side:`right`})]}),e[0]=t):t=e[0],t}function E(){let e=(0,o.c)(1),t;return e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,s.jsx)(a.div,{className:`\r
+\r
+        absolute\r
+\r
+        bottom-20\r
+\r
+        left-1/2\r
+\r
+        -translate-x-1/2\r
+\r
+\r
+        h-40\r
+\r
+        w-[700px]\r
+\r
+\r
+        rounded-full\r
+\r
+\r
+        bg-white/10\r
+\r
+\r
+        blur-[80px]\r
+\r
+\r
+        z-10\r
+\r
+        `,animate:{x:[`-20px`,`20px`,`-20px`],opacity:[.2,.5,.2]},transition:{duration:6,repeat:1/0}}),e[0]=t):t=e[0],t}function D(){let e=(0,o.c)(14),t,n,r,i,c,l;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(t=(0,s.jsx)(v,{}),n=(0,s.jsx)(x,{}),r=(0,s.jsx)(b,{}),i=(0,s.jsx)(E,{}),c=(0,s.jsx)(T,{}),l=(0,s.jsx)(S,{}),e[0]=t,e[1]=n,e[2]=r,e[3]=i,e[4]=c,e[5]=l):(t=e[0],n=e[1],r=e[2],i=e[3],c=e[4],l=e[5]);let u;e[6]===Symbol.for(`react.memo_cache_sentinel`)?(u=(0,s.jsx)(a.div,{className:`\r
+\r
+            absolute\r
+\r
+            left-1/2\r
+\r
+            top-1/2\r
+\r
+            -translate-x-1/2\r
+\r
+            -translate-y-1/2\r
+\r
+\r
+            h-[650px]\r
+\r
+            w-[650px]\r
+\r
+\r
+            rounded-full\r
+\r
+\r
+            bg-yellow-300/20\r
+\r
+\r
+            blur-[130px]\r
+\r
+\r
+            z-10\r
+\r
+            `,animate:{scale:[1,1.15,1],opacity:[.35,.8,.35]},transition:{duration:4,repeat:1/0,ease:`easeInOut`}}),e[6]=u):u=e[6];let d;e[7]===Symbol.for(`react.memo_cache_sentinel`)?(d=(0,s.jsx)(a.div,{className:`\r
+\r
+            absolute\r
+\r
+            z-10\r
+\r
+\r
+            h-[500px]\r
+\r
+\r
+            w-[300px]\r
+\r
+\r
+            rounded-full\r
+\r
+\r
+            bg-yellow-200/10\r
+\r
+\r
+            blur-[90px]\r
+\r
+\r
+            `,animate:{opacity:[.3,.7,.3]},transition:{duration:3,repeat:1/0,ease:`easeInOut`}}),e[7]=d):d=e[7];let f;e[8]===Symbol.for(`react.memo_cache_sentinel`)?(f={opacity:0,y:80,scale:.85},e[8]=f):f=e[8];let p;e[9]===Symbol.for(`react.memo_cache_sentinel`)?(p=(0,s.jsx)(a.img,{src:m,alt:`World Cup Trophy`,className:`\r
+\r
+\r
+            absolute\r
+\r
+\r
+            z-20\r
+\r
+\r
+            h-[75vh]\r
+\r
+\r
+            max-w-[90vw]\r
+\r
+\r
+            object-contain\r
+\r
+\r
+\r
+            drop-shadow-[0_0_90px_rgba(250,204,21,.8)]\r
+\r
+\r
+\r
+            `,initial:f,animate:{opacity:1,y:[0,-15,0],scale:1},transition:{opacity:{duration:1},scale:{duration:1.2,ease:`easeOut`},y:{duration:4,repeat:1/0,ease:`easeInOut`}}}),e[9]=p):p=e[9];let h,g,_;e[10]===Symbol.for(`react.memo_cache_sentinel`)?(h={opacity:0,y:50,filter:`blur(10px)`},g={opacity:1,y:0,filter:`blur(0px)`},_={delay:1,duration:1},e[10]=h,e[11]=g,e[12]=_):(h=e[10],g=e[11],_=e[12]);let C;return e[13]===Symbol.for(`react.memo_cache_sentinel`)?(C=(0,s.jsxs)(`main`,{className:`\r
+        relative\r
+\r
+        min-h-screen\r
+\r
+        overflow-hidden\r
+\r
+        flex\r
+\r
+        items-center\r
+\r
+        justify-center\r
+\r
+        bg-black\r
+\r
+        `,children:[t,n,r,i,c,l,u,d,p,(0,s.jsxs)(a.div,{className:`\r
+\r
+\r
+            absolute\r
+\r
+\r
+            z-30\r
+\r
+\r
+            bottom-16\r
+\r
+\r
+            text-center\r
+\r
+\r
+            px-6\r
+\r
+\r
+            `,initial:h,animate:g,transition:_,children:[(0,s.jsx)(a.h1,{className:`\r
+\r
+\r
+                text-5xl\r
+\r
+\r
+                md:text-6xl\r
+\r
+\r
+                font-black\r
+\r
+\r
+                tracking-tight\r
+\r
+\r
+                text-white\r
+\r
+\r
+                drop-shadow-lg\r
+\r
+\r
+                `,animate:{textShadow:[`0 0 0px rgba(255,255,255,0)`,`0 0 25px rgba(255,255,255,.35)`,`0 0 0px rgba(255,255,255,0)`]},transition:{duration:3,repeat:1/0},children:`ARGENTINA 2022`}),(0,s.jsx)(`p`,{className:`\r
+\r
+\r
+                mt-4\r
+\r
+\r
+                text-sm\r
+\r
+\r
+                md:text-base\r
+\r
+\r
+                tracking-[0.5em]\r
+\r
+\r
+                text-white/60\r
+\r
+\r
+                `,children:`WORLD CUP EXPERIENCE`}),(0,s.jsx)(y,{})]})]}),e[13]=C):C=e[13],C}var O=e(t(),1);function k(){let e=(0,o.c)(5),[t,n]=(0,O.useState)(`loading`),r,i;e[0]===Symbol.for(`react.memo_cache_sentinel`)?(r=()=>{let e=setTimeout(()=>{n(`flash`)},4500),t=setTimeout(()=>{n(`opening`)},5200),r=setTimeout(()=>{n(`trophy`)},6500),i=setTimeout(()=>{n(`complete`)},12500);return()=>{clearTimeout(e),clearTimeout(t),clearTimeout(r),clearTimeout(i)}},i=[],e[0]=r,e[1]=i):(r=e[0],i=e[1]),(0,O.useEffect)(r,i);let a=t!==`complete`,s;return e[2]!==t||e[3]!==a?(s={phase:t,loading:a},e[2]=t,e[3]=a,e[4]=s):s=e[4],s}function A(){let e=(0,o.c)(11),{phase:t,loading:n}=k(),r=t===`complete`,i;e[0]!==n||e[1]!==t?(i=n&&(0,s.jsx)(d,{phase:t}),e[0]=n,e[1]=t,e[2]=i):i=e[2];let c;e[3]===t?c=e[4]:(c=t!==`complete`&&(0,s.jsx)(_,{phase:t}),e[3]=t,e[4]=c);let l;e[5]===r?l=e[6]:(l=r&&(0,s.jsx)(a.div,{initial:{opacity:0,scale:1.05,filter:`blur(20px)`},animate:{opacity:1,scale:1,filter:`blur(0px)`},transition:{duration:1.5},children:(0,s.jsx)(D,{})}),e[5]=r,e[6]=l);let u;return e[7]!==i||e[8]!==c||e[9]!==l?(u=(0,s.jsxs)(`main`,{className:`\r
+        relative\r
+\r
+        min-h-screen\r
+\r
+        overflow-hidden\r
+\r
+        bg-black\r
+\r
+        `,children:[i,c,l]}),e[7]=i,e[8]=c,e[9]=l,e[10]=u):u=e[10],u}export{A as default};
