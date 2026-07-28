@@ -9,6 +9,7 @@ function FlagCircle(){
 
         className="
         relative
+
         flex
         items-center
         justify-center
@@ -16,14 +17,17 @@ function FlagCircle(){
         h-64
         w-64
 
+        sm:h-72
+        sm:w-72
+
         rounded-full
 
         overflow-hidden
 
         border
-        border-white/30
+        border-white/40
 
-        shadow-[0_0_100px_rgba(116,172,223,0.45)]
+        shadow-[0_0_120px_rgba(116,172,223,0.55)]
 
         "
 
@@ -51,16 +55,13 @@ function FlagCircle(){
             <motion.div
 
             className="
+
             absolute
+
             inset-0
 
-            bg-gradient-to-b
 
-            from-[#74ACDF]
-
-            via-white
-
-            to-[#74ACDF]
+            bg-[linear-gradient(to_bottom,#74ACDF_0%,#74ACDF_33%,white_33%,white_66%,#74ACDF_66%,#74ACDF_100%)]
 
             "
 
@@ -92,22 +93,55 @@ function FlagCircle(){
 
 
 
+            {/* Luz suave sobre la bandera */}
+
+            <div
+
+            className="
+
+            absolute
+
+            inset-0
+
+            bg-gradient-to-br
+
+            from-white/30
+
+            via-transparent
+
+            to-blue-900/20
+
+            "
+
+            />
+
+
+
+
+
             {/* Sol argentino */}
 
             <motion.div
 
             className="
-            absolute
+
+            relative
+
+            z-10
 
             h-14
 
             w-14
 
+            sm:h-16
+
+            sm:w-16
+
             rounded-full
 
             bg-yellow-300
 
-            shadow-[0_0_50px_rgba(250,204,21,.9)]
+            shadow-[0_0_60px_rgba(250,204,21,1)]
 
             "
 
@@ -121,6 +155,16 @@ function FlagCircle(){
 
                     1
 
+                ],
+
+                boxShadow:[
+
+                    "0 0 40px rgba(250,204,21,.7)",
+
+                    "0 0 80px rgba(250,204,21,1)",
+
+                    "0 0 40px rgba(250,204,21,.7)"
+
                 ]
 
             }}
@@ -129,11 +173,15 @@ function FlagCircle(){
 
                 duration:2,
 
-                repeat:Infinity
+                repeat:Infinity,
+
+                ease:"easeInOut"
 
             }}
 
             />
+
+
 
 
 
@@ -142,6 +190,7 @@ function FlagCircle(){
             <motion.div
 
             className="
+
             absolute
 
             inset-0
@@ -150,7 +199,7 @@ function FlagCircle(){
 
             from-transparent
 
-            via-white/40
+            via-white/35
 
             to-transparent
 
@@ -182,11 +231,14 @@ function FlagCircle(){
 
 
 
+
+
             {/* Borde interior */}
 
             <div
 
             className="
+
             absolute
 
             inset-3
@@ -195,7 +247,7 @@ function FlagCircle(){
 
             border
 
-            border-white/20
+            border-white/30
 
             "
 

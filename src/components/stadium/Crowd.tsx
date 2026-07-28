@@ -5,7 +5,7 @@ function Crowd(){
 
 
     const people = Array.from({
-        length: 70
+        length:70
     });
 
 
@@ -13,7 +13,6 @@ function Crowd(){
     return (
 
         <motion.div
-
 
             className="
 
@@ -26,43 +25,38 @@ function Crowd(){
             right-0
 
 
-            h-[240px]
+            h-[130px]
+
+            sm:h-[180px]
+
+            md:h-[240px]
 
 
-            z-10
+            z-0
 
+            overflow-hidden
 
             "
 
             initial={{
-
                 opacity:0,
-
                 y:40
-
             }}
-
 
             animate={{
-
                 opacity:1,
-
                 y:0
-
             }}
 
-
             transition={{
-
                 duration:1.5
-
             }}
 
         >
 
 
 
-            {/* Oscuridad de tribuna */}
+            {/* sombra tribuna */}
 
             <div
 
@@ -76,7 +70,7 @@ function Crowd(){
 
                 from-black
 
-                via-black/90
+                via-[#06152e]/90
 
                 to-transparent
 
@@ -86,9 +80,33 @@ function Crowd(){
 
 
 
+            {/* luces azul estadio */}
+
+            <div
+
+                className="
+
+                absolute
+
+                inset-x-0
+
+                bottom-0
+
+                h-24
+
+                bg-gradient-to-t
+
+                from-blue-500/20
+
+                to-transparent
+
+                blur-2xl
+
+                "
+
+            />
 
 
-            {/* Personas */}
 
             <div
 
@@ -102,191 +120,121 @@ function Crowd(){
 
                 right-0
 
-
                 flex
 
                 items-end
 
                 justify-around
 
-                px-5
+                px-2
 
                 "
 
             >
 
+            {
+                people.map((_,index)=>(
 
-                {
-                    people.map((_, index)=>(
 
+                    <motion.div
 
-                        <motion.div
 
+                        key={index}
 
-                            key={index}
 
+                        className={`
 
-                            className="
+                        relative
 
-                            relative
+                        w-4
 
-                            h-16
+                        sm:w-5
 
-                            w-6
+                        rounded-full
 
-                            rounded-full
+                        shadow-lg
 
+                        ${
 
-                            bg-gradient-to-b
+                        index % 3 === 0
 
-                            from-gray-800
+                        ? "bg-gradient-to-b from-[#74ACDF] to-black"
 
-                            to-black
+                        : index % 3 === 1
 
+                        ? "bg-gradient-to-b from-white to-black"
 
-                            shadow-lg
+                        : "bg-gradient-to-b from-gray-700 to-black"
 
+                        }
 
-                            "
+                        `}
 
-                            style={{
 
-                                height:
-                                `${40 + Math.random()*50}px`
+                        style={{
 
-                            }}
+                            height:`${35 + Math.random()*45}px`
 
+                        }}
 
 
-                            animate={{
 
+                        animate={{
 
-                                y:[
+                            y:[0,-5,0]
 
-                                    0,
+                        }}
 
-                                    -5,
 
-                                    0
 
-                                ]
+                        transition={{
 
-                            }}
+                            duration:1.5 + Math.random(),
 
+                            repeat:Infinity,
 
-                            transition={{
+                            delay:Math.random()*2
 
-                                duration:
-                                1.5 + Math.random(),
+                        }}
 
-                                repeat:Infinity,
+                    >
 
-                                delay:
-                                Math.random()*2,
 
-                                ease:"easeInOut"
 
-                            }}
+                    <div
 
+                    className="
 
-                        >
+                    absolute
 
-                            {/* cabeza */}
+                    -top-3
 
-                            <div
+                    left-1/2
 
-                                className="
+                    -translate-x-1/2
 
-                                absolute
+                    h-4
 
-                                -top-3
+                    w-4
 
-                                left-1/2
+                    rounded-full
 
-                                -translate-x-1/2
+                    bg-[#111827]
 
+                    "
 
-                                h-5
+                    />
 
-                                w-5
 
 
-                                rounded-full
+                    </motion.div>
 
 
-                                bg-gray-900
+                ))
 
-
-                                "
-
-                            />
-
-
-                        </motion.div>
-
-
-                    ))
-
-                }
-
-
+            }
 
             </div>
-
-
-
-            {/* Luz de tribuna */}
-
-            <motion.div
-
-
-                className="
-
-                absolute
-
-                bottom-20
-
-                left-0
-
-                right-0
-
-
-                h-20
-
-
-                bg-blue-400/5
-
-
-                blur-3xl
-
-                "
-
-                animate={{
-
-
-                    opacity:[
-
-                        .3,
-
-                        .7,
-
-                        .3
-
-                    ]
-
-                }}
-
-
-                transition={{
-
-                    duration:4,
-
-                    repeat:Infinity
-
-                }}
-
-
-            />
 
 
 
